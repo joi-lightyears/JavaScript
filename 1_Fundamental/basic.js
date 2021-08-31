@@ -61,6 +61,56 @@ meaning: 5 - 5 = 0
 
 2. Toan tu gan (Assignment) a = b (assign b to a)
 3. Toan tu so sanh (Comparision) >, <, =, >=, <=
-4. Toan tu logic (Logical) && ||
---------------------------------------*/
+4. Toan tu logic (Logical) && || !
+*/
 
+// ******** string operator ************************
+// 'Joi' + 'Nguyen' => 'JoiNguyen'
+
+// ******** boolean ********************************
+/*
+0
+false
+'' ""
+undefined
+NaN
+null
+6 gia tri nay khi duoc convert ra boolean se la false
+con lai se la true */
+
+// ******* object ***********************************
+//example:
+/* var firstObject = {
+    name: 'Joi',
+    age: '18',
+    firstFunction: function () {
+        
+    }
+};
+console.log(firstObject); */
+
+// ****** array **************************************
+/* var firstArray = [
+    'Python',
+    'Luca',
+    'SpaceX'
+];
+console.log(firstArray); */
+
+// ***** compare opaerator ***************************
+/* 
+== (so sanh khong chinh xac du lieu: 8 == 8 => true | 8 == '8' => true)
+=== (so sanh chinh xac du lieu: 8 === 8 => true | 8 === '8' => false)
+!== (tuong tu ===)
+*/
+
+// **** conditional statement ***********************
+// a && b && c (xet tu trai qua phai: neu khong co false thi ra c: neu b laf false thi ra b)
+// tuong tu || nhung no tim true
+
+// ****** string ************************************
+/* 2 cach khai bao string
+c1: var name = 'Joi'
+c2: var name = new String('Joi')
+cach 1 se nhanh hon cach 2
+cach 2 new String thuc chat la khai bao 1 doi tuong object name khi typeof name thi ra object */
