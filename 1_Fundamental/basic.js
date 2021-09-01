@@ -148,3 +148,5 @@ ex name = 'Coco'
 name.split('') => ["C", "o", "c", "o"]
 get a character by index
 myString.charAt(index) */
+// *** JS number methods ********************
+//console.log(Number.parseFloat('237,22'));
