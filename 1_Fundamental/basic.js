@@ -113,4 +113,38 @@ console.log(firstArray); */
 c1: var name = 'Joi'
 c2: var name = new String('Joi')
 cach 1 se nhanh hon cach 2
-cach 2 new String thuc chat la khai bao 1 doi tuong object name khi typeof name thi ra object */
+cach 2 new String thuc chat la khai bao 1 doi tuong object name khi typeof name thi ra object
+template string (only in ES6)
+ex
+var name = 'Elon';
+var lastname = 'Musk';
+console.log(`My name is: ${name} ${lastname}`);*/
+
+// ****** JS string methods ***************************
+/* length: myString.length
+find index: myString = 'Joi'; myString.indexOf('J')| incase not found index it will return -1
+2nd parameter myString.indexOf('J', 3) nghia la tim bat dau tu vi tri index 3
+lastIndexOf('J') tra ve vi tri xuat hien lan cuoi cua J trong string
+search('J') giong nhu indexOf nhung khong ho tro 2nd parameter va khac thu 2 laf nos tim theo bieu thuc chinh quy
+cut string
+myString.slice(start, end);
+replace
+myString.replace('J', 'K') => Koi | chi thay duoc J xuat hien lan dau
+neu muon thay tat ca J trong string phai dung toi bieu thuc chinh quy
+tim bang bieu thuc chinh quy: replace(/J/g, 'K')
+convert to upper case
+myString.toUpperCase()
+convert to lower case
+myString.toLowerCase()
+trim
+myString.trim(): loai bo blankspace thua
+split
+quy doi danh sach dang string sang array
+ex
+var list = 'Milk, Avocado, Watermelon'
+list.split(', ') | diem chung la ", " dua vao do no se tach
+truong hop muon tach tat ca cac chu trong mot tu
+ex name = 'Coco'
+name.split('') => ["C", "o", "c", "o"]
+get a character by index
+myString.charAt(index) */
