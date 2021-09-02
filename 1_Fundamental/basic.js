@@ -150,3 +150,51 @@ get a character by index
 myString.charAt(index) */
 // *** JS number methods ********************
 //console.log(Number.parseFloat('237,22'));
+
+// **** Array *******************************
+// JavaScript Array methods
+// var languages = ['A', 'B', 'C']
+// 1. To string
+// console.log(languages.toString()) //=> A,B,C tu them dau ,
+// 2. Join
+// console.log(languages.join()) //giong toString nhung co them 1 parameter de dieu chinh ngan cach
+//ex
+// console.log(languages.join('')) //=> ABC
+// console.log(languages.join('|')) //=> A|B|C
+// 3. Pop
+// console.log(languages.pop()) //xoa phan tu cuoi mang va tra ve phan tu da xoa
+// console.log(languages) //=> ["A", "B"]
+// khi khong con phan tu de xoa no se tra ve undefined
+// 4. Push
+// console.log(languages.push('D')) //tra ve do dai moi them
+// console.log(languages) //=> ["A", "B", "C", "D"]
+// 5. Shift
+// console.log(languages.shift()) // xoa va tra ve phan tu dau mang
+// console.log(languages) //=> ["B", "C"]
+// khi khong con de xoa se tra ve undefined
+// 6. Unshift
+// console.log(languages.unshift('D')) // them D vao dau mang va tra ve do dai moi
+// console.log(languages) //=> ["D", "A", "B", "C"]
+// 7. Splicing
+// xoa 1 phan tu bat ky trong array
+// console.log(languages.splice(index, deleteCount)) //tu vi tri index se xoa di deleteCount phan tu cua mang
+// languages.splice(1) //=> ["A"]
+// languages.splice(1,1) //=> ["A", "C"]
+// languages.splice(1,2) //=> ["A"]
+// languages.splice(1, 0, 'E') // chen E vao vi tri index 1 => ["A", "E", "B", "C"]
+// languages.splice(1, 1, 'E') //xoa B thay bang E => ["A", "E", "C"]
+// languages.splice(1, 2, 'E', 'F') //=> ["A", "E", "F"]
+// console.log(languages)
+// 8. concat
+// noi array
+// var a1 = ['A', 'B'],
+//     a2 = ['C', 'D']
+// console.log(a1.concat(a2)) //=> ["A", "B", "C", "D"] | a1 goi la mang goc va mang a2 duoc noi them vao
+// console.log(a2.concat(a1)) //=> ["C", "D", "A", "B"]
+// 9.Slicing
+// var a1 = ['A', 'B', 'C']
+// console.log(a1.slice(start, end))
+// console.log(a1.slice(1, 2)) //=> ["B"]
+// console.log(a1.slice(1)) //=> ["B", "C"]
+// console.log(a1.slice(0)) //=> ['A', 'B', 'C'] (copy mang)
+// console.log(a1.slice(-2, -1)) //=> ["B"]
