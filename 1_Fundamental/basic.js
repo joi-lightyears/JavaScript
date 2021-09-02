@@ -187,7 +187,7 @@ myString.charAt(index) */
 // console.log(languages)
 // 8. concat
 // noi array
-// var a1 = ['A', 'B'],
+// var a1 = ['A', 'D'],
 //     a2 = ['C', 'D']
 // console.log(a1.concat(a2)) //=> ["A", "B", "C", "D"] | a1 goi la mang goc va mang a2 duoc noi them vao
 // console.log(a2.concat(a1)) //=> ["C", "D", "A", "B"]
@@ -198,3 +198,32 @@ myString.charAt(index) */
 // console.log(a1.slice(1)) //=> ["B", "C"]
 // console.log(a1.slice(0)) //=> ['A', 'B', 'C'] (copy mang)
 // console.log(a1.slice(-2, -1)) //=> ["B"]
+// ******* function ****************************
+/* function nameFunction(){
+    ...
+}
+call: nameFunction() */
+// var x = 1, y = 2;
+// function write(a, b) { // a,b are parameters
+//     console.log(a + b)
+// }
+// write(x, y) // a,b are arguments
+
+//doi tuong arguments
+/* ex
+function consoleLog(){
+    console.log(arguments)
+}
+consoleLog('A') //=> ["A"] */
+
+// function consoleLog(){
+//     var myString = ''
+//     for (var par of arguments){
+//         myString +=`${par} - `
+//     }
+//     console.log(myString)
+// }
+// consoleLog('A','B','C') //=> A - B - C -
+
+// ****** return in function ****************
+// giong c++
