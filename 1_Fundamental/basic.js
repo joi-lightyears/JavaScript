@@ -5,7 +5,7 @@ var age= '18'; // khong co dau cham phay cung duoc
 alert(myName);
 alert(age);
 */
-
+// update july 4th 2022
 // *********** comment ******************************
 // hotkey: Ctrl + / => // comment on line
 // hotkey: Shift + Alt + A => Toggle block comment
